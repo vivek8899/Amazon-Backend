@@ -5,7 +5,7 @@ FROM openjdk:11-jre-slim
 WORKDIR /app
 
 # Copy the JAR file from the target directory into the container
-COPY target/Amazon-Backend-0.0.1-SNAPSHOT.jar .
+COPY Amazon-Backend-0.0.1-SNAPSHOT.jar .
 
 # Specify the command to run when the container starts
-CMD ["java", "-jar", "target/Amazon-Backend-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "Amazon-Backend-0.0.1-SNAPSHOT.jar"]
